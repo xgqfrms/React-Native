@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>React Native Tutorial: Getting Started </title>
+	<link rel="shortcut icon" href="https://facebook.github.io/react/favicon.ico">
+	<!-- https://facebook.github.io/react-native/docs/getting-started.html -->
+	<style>
+		code{
+			background-color: rgba(0,0,0,0.1);
+		}
+	</style>
+</head>
+<body>
+	<!--  -->
+	<div>
+		<h1><mark>React Native Tutorial: Getting Started </mark></h1>
+	</div>
+	<p>
+		<h1>Getting Started </h1>
+		Welcome to React Native! This page will help you install React Native on your system, so that you can build apps with it right away. <br>
+		If you already have React Native installed, you can skip ahead to the Tutorial. <br>
+
+		The instructions are a bit different depending on your development operating system, 
+		and whether you want to start developing for iOS or Android.<br> 
+		If you want to develop for both iOS and Android, 
+		that's fine - you just have to pick one to start with, since the setup is a bit different.<br><br>
+
+		Mobile OS: 
+		<strong> iOS</strong><mark> Android</mark> 
+		Development OS: 
+		<strog> Mac</strog><strog> Linux</strog><mark> Windows</mark><br><br>
+
+		<h1>Dependencies for <mark><i>Windows + Android</i></mark></h1>
+
+		You will need <strong>node.js</strong>, the <strong>React Native command line tools</strong>, 
+		<strong>Watchman</strong>, and <strong>Android Studio</strong>.<br><br>
+
+		We recommend installing <code>node.js</code> and <code>Python2</code> via <strong>Chocolatey</strong>, 
+		a popular package manager for Windows. Open a Command Prompt as Administrator, then run:<br><br>
+
+		<code>
+			choco install nodejs.install
+			choco install python2
+		</code>
+		<br><br>
+		Node comes with <strong>npm</strong>, which lets you install the React Native command line interface.<br><br>
+
+		<code>
+			npm install -g react-native-cli
+		</code>
+		<br><br>
+		Download and install <strong>Android Studio</strong>.<br><br>
+
+		If you plan to make changes in Java code, we recommend <strong>Gradle Daemon</strong> which speeds up the build.<br><br>
+
+		<h1>Testing your React Native Installation </h1><br><br>
+
+		Use the React Native command line tools to generate a new React Native project called "<i>AwesomeProject</i>",<br>
+		then run <code>react-native run-android</code> inside the newly created folder.<br><br>
+
+		<code>
+			react-native init AwesomeProject<br>
+			cd AwesomeProject<br>
+			react-native run-android<br>
+		</code><br><br>
+
+		If everything is set up correctly, you should see your new app running in your <strong> Android emulator</strong> shortly.<br><br>
+
+		A common issue is that the packager is not started automatically when you run <code>react-native run-android</code>.<br>
+		You can start it manually using <code>react-native start</code>.
+		<br><br><br>
+		If you hit a <code>ERROR Watcher took too long to load</code> on Windows, 
+		try increasing the timeout in this file (under your <code>node_modules/react-native/</code>).<br><br>
+		
+		<h1>Modifying your app </h1><br><br>
+		Now that you have successfully run the app, let's modify it.<br><br>
+
+		Open <code>index.android.js</code> in your text editor of choice and edit some lines.<br>
+		Press the <code>R</code> key twice or select <code>Reload</code> from the Developer Menu to see your change!<br><br>
+		
+		<h1>That's it!</h1><br>
+		Congratulations! You've successfully run and modified a <strong>React Native app</strong>.<br><br>
+
+
+		<h1>Now What? </h1><br>
+		If you want to add this new React Native code to an existing application, check out the <code>Integration guide</code>.<br><br>
+
+		If you can't get this to work, see the <strong>Troubleshooting</strong> page.<br><br>
+
+		If you're curious to learn more about React Native, continue on to the <strong>Tutorial</strong>.<br><br>
+	</p>
+	<hr>
+	<h3>
+		<a href="https://facebook.github.io/react-native/docs/tutorial.html">https://facebook.github.io/react-native/docs/tutorial.html</a>
+	</h3>
+</body>
+</html>
