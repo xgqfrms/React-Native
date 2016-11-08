@@ -27,6 +27,16 @@ https://ide.c9.io/xgqfrms/docker
 
 ## Linux kernel version
 
+```bash
+$ uname -r
+``` 
+## Ubuntu version
+
+```bash
+$ lsb_release -a
+``` 
+
+
 
 ## docker
 
