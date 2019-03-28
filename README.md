@@ -1,5 +1,6 @@
 # React-Native
-<<<<<<< HEAD
+
+https://react-native.xgqfrms.xyz/
 
 
 ## React Native
@@ -90,12 +91,10 @@ https://yarnpkg.com/en/docs/cli/
 https://yarnpkg.com/en/docs/yarn-workflow
 
 
-************************************************************************************
-=======
-React Native
+***
 
-
-[http://react-native.xgqfrms.xyz/](http://react-native.xgqfrms.xyz/)
+# React Native
 
 [https://xgqfrms.github.io/React-Native/](https://xgqfrms.github.io/React-Native/)
->>>>>>> origin/gh-pages
+
+
