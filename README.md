@@ -12,20 +12,40 @@ Build Native Mobile Apps using JavaScript and React
 
 [react-native.webgeeker.xyz](http://react-native.webgeeker.xyz/docs/getting-started.html)
 
+## dev
 
 ```sh
-$ npm install -g react-native-cli
-
 # npm too slowly
-$ react-native init AwesomeProject 
-$ cd AwesomeProject
-$ react-native run-android
+$ npm i -g react-native-cli
 
 # yarn (facebook)
+$ yarn global add react-native-cli
 
 
+$ react-native -v
+# $ react-native --version
+# react-native-cli: 2.0.1
 
-``` 
+```
+
+```sh
+
+$ react-native init AwesomeProject
+
+$ cd AwesomeProject
+
+
+# install
+$ yarn
+# $ npm i
+
+# android simulator
+$ react-native run-android
+
+# ios simulator
+$ react-native run-ios
+
+```
 
 ## React-Native
 
